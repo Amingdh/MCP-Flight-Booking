@@ -1,0 +1,76 @@
+{
+  "flights": [
+    {
+      "id": "FL001",
+      "origin": "Paris",
+      "destination": "Rome",
+      "date": "2026-04-01",
+      "departure_time": "08:30",
+      "arrival_time": "10:45",
+      "airline": "AirEurope",
+      "price": 189.99,
+      "seats_available": 12,
+      "duration_minutes": 135
+    },
+    {
+      "id": "FL002",
+      "origin": "Paris",
+      "destination": "Rome",
+      "date": "2026-04-01",
+      "departure_time": "13:15",
+      "arrival_time": "15:30",
+      "airline": "MedFly",
+      "price": 145.50,
+      "seats_available": 4,
+      "duration_minutes": 135
+    },
+    {
+      "id": "FL003",
+      "origin": "Paris",
+      "destination": "Rome",
+      "date": "2026-04-01",
+      "departure_time": "18:00",
+      "arrival_time": "20:20",
+      "airline": "AirEurope",
+      "price": 210.00,
+      "seats_available": 23,
+      "duration_minutes": 140
+    },
+    {
+      "id": "FL004",
+      "origin": "London",
+      "destination": "Barcelona",
+      "date": "2026-04-01",
+      "departure_time": "07:00",
+      "arrival_time": "10:15",
+      "airline": "BritAir",
+      "price": 99.99,
+      "seats_available": 8,
+      "duration_minutes": 135
+    },
+    {
+      "id": "FL005",
+      "origin": "London",
+      "destination": "Barcelona",
+      "date": "2026-04-01",
+      "departure_time": "14:45",
+      "arrival_time": "18:00",
+      "airline": "SpanAir",
+      "price": 115.00,
+      "seats_available": 15,
+      "duration_minutes": 135
+    },
+    {
+      "id": "FL006",
+      "origin": "Berlin",
+      "destination": "Amsterdam",
+      "date": "2026-04-02",
+      "departure_time": "09:00",
+      "arrival_time": "10:30",
+      "airline": "EuroWings",
+      "price": 79.99,
+      "seats_available": 30,
+      "duration_minutes": 90
+    }
+  ]
+}

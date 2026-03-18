@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  flight-mcp-server:
+    build:
+      context: ..          # project root  (mcp-flight-booking-poc/)
+      dockerfile: docker/Dockerfile
+    container_name: flight-mcp-server
+    ports:
+      - "8000:8000"
+    environment:
+      PORT: "8000"
+      API_KEY: "DEMO_KEY"
+      SERVICE_NAME: "flight-mcp-server"
+      DATA_DIR: "data"
+    volumes:
+      # Persist and sync mock data with the local filesystem
+      - ../server/data:/app/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+    restart: unless-stopped
+

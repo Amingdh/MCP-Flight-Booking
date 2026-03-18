@@ -1,0 +1,34 @@
+{
+  "Paris": {
+    "code": "CDG",
+    "name": "Charles de Gaulle Airport",
+    "terminals": 3,
+    "distance_to_city_km": 25,
+    "transit_options": ["RER B Train (30 mins)", "RoissyBus (60 mins)", "Taxi (€53-€58)"],
+    "lounges": ["Air France Lounge", "Star Alliance Lounge"]
+  },
+  "Rome": {
+    "code": "FCO",
+    "name": "Leonardo da Vinci–Fiumicino Airport",
+    "terminals": 4,
+    "distance_to_city_km": 35,
+    "transit_options": ["Leonardo Express Train (32 mins)", "Terravision Bus (55 mins)", "Taxi (€50 flat rate)"],
+    "lounges": ["Alitalia Giotto Lounge", "Plaza Premium Lounge"]
+  },
+  "London": {
+    "code": "LHR",
+    "name": "Heathrow Airport",
+    "terminals": 5,
+    "distance_to_city_km": 23,
+    "transit_options": ["Heathrow Express (15 mins)", "Elizabeth Line (35 mins)", "Piccadilly Line (50 mins)"],
+    "lounges": ["British Airways Concorde Room", "Virgin Atlantic Clubhouse"]
+  },
+  "Barcelona": {
+    "code": "BCN",
+    "name": "Josep Tarradellas Barcelona-El Prat Airport",
+    "terminals": 2,
+    "distance_to_city_km": 15,
+    "transit_options": ["Aerobús (35 mins)", "Metro L9S (30 mins)", "Renfe R2N Train (25 mins)"],
+    "lounges": ["Pau Casals VIP Lounge", "Joan Miró VIP Lounge"]
+  }
+}
